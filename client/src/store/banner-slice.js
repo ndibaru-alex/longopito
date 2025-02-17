@@ -6,7 +6,7 @@ const initialState= {
     isloading : false
 }
 
-const backendDomain = 'https://longopito-api.vercel.app'
+const backendDomain = 'https://longopito-api.onrender.com'
 
 export const createBanner = createAsyncThunk('createBanner',async(formData)=>{
     const response = await axios.post(`${backendDomain}/api/addBanner`,formData)
