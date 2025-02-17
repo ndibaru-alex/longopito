@@ -1,6 +1,6 @@
 import {createSlice,createAsyncThunk} from '@reduxjs/toolkit';
 import axios from 'axios';
-const backendDomain = 'https://longopito-api.vercel.app'
+const backendDomain = 'https://longopito-api.onrender.com'
 
 const initialState = {
     isLoading : false,
