@@ -6,7 +6,7 @@ const initialState= {
     details : null
 }
 
-const backendDomain = 'https://longopito-api.vercel.app/'
+const backendDomain = 'https://longopito-api.vercel.app'
 
 export const makeStkPush = createAsyncThunk('stk-push',async(formData)=>{
     const response = await axios.post(`${backendDomain}/api/stk-push`,formData)    
