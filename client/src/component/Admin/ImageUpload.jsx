@@ -51,7 +51,7 @@ const ImageUpload = ({
     data.append('folder', 'banner');
 
     const response = await axios.post(
-      'https://longopito-api.vercel.app/api/upload-image',
+      'https://longopito-api.onrender.com/api/upload-image',
       data
     );
 
