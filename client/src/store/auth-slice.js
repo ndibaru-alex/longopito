@@ -7,7 +7,7 @@ const initialState = {
     user : null    
 }
 
-const backendDomain = 'http://localhost:8000'
+const backendDomain = 'https://longopito-api.vercel.app'
 
 export const registerUser =  createAsyncThunk('register', async(formData)=>{
    const response = await axios.post(`${backendDomain}/api/register`,formData,{withCredentials : true})
