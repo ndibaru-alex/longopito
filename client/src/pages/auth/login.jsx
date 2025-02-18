@@ -82,11 +82,11 @@ export default function Login() {
 
                                                                 <Col lg={12} >
                                                                     <div className="d-flex justify-content-between">
-                                                                        <div className="mb-3">
+{/*                                                                         <div className="mb-3">
                                                                             <label className="form-check-label" >Remember me</label>
                                                                         </div>
                                                                         <p className="forgot-pass mb-0"><Link to="/auth-reset-password" className="text-dark fw-semibold">Forgot password ?</Link></p>
-                                                                    </div>
+                                                                    </div> */}
                                                                 </Col>
 
                                                                 <div className="col-lg-12 mb-0">
@@ -96,7 +96,7 @@ export default function Login() {
                                                                 </div>
 
                                                                 <div className="col-12">
-                                                                    <p className="mb-0 mt-3"><small className="text-dark me-2">Don't have an account ?</small> <Link to="/auth-signup" className="text-dark fw-semibold">Sign Up</Link></p>
+{/*                                                                     <p className="mb-0 mt-3"><small className="text-dark me-2">Don't have an account ?</small> <Link to="/auth-signup" className="text-dark fw-semibold">Sign Up</Link></p> */}
                                                                 </div>
                                                             </Row>
                                                         </form>
@@ -104,7 +104,8 @@ export default function Login() {
                                                 </Card>
                                             </div>
                                             <div className="mb-md-5 text-center">
-                                                <p className="mb-0 text-muted">© {(new Date().getFullYear())}{" "} Motos. Design with <i className="mdi mdi-heart text-danger"></i> by <Link to="#" className="text-reset">Shreethemes</Link>.</p>
+                                                <p className="mb-0 text-muted">© {(new Date().getFullYear())}{" "} RAC Milimani <i className="mdi mdi-heart text-danger"></i> by <a href="https://alexander-ndibaru.vercel.app/"  target="_blank" 
+  rel="noopener noreferrer" className="text-reset">XanderTech</a>.</p>
                                             </div>
                                         </div>
                                     </div>
