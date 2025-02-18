@@ -75,7 +75,7 @@ import { logOut } from '../store/auth-slice';
                         </NavbarBrand>
 
                         <NavbarToggler onClick={toggleMenu}>
-                            <Icon.Menu style={{marginRight:'39px'}} />
+                            <Icon.Menu style={{marginRight:'42px'}} />
                         </NavbarToggler>
 
                         <Collapse className={`navbar-collapse ${isOpen === true ? 'hidden' : 'show'}`} id="navbarSupportedContent">
