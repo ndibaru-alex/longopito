@@ -138,14 +138,14 @@ input {
 
 @media (max-width: 768px) {
     .logo-image {
-        width: 280px;  /* Adjust width for mobile */
+        width: 300px;  /* Adjust width for mobile */
         height: auto;  /* Maintain aspect ratio */
     }
 }
 
 @media (max-width: 480px) {
     .logo-image {
-        width: 240px;  
+        width: 300px;  
     }
 }
 
