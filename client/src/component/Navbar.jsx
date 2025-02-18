@@ -63,13 +63,11 @@ import { logOut } from '../store/auth-slice';
                     <div className="container">
                         <NavbarBrand className="navbar-brand" href="/">
                             <span className="logo-light-mode">
-                                <img src={Logopito} className="l-dark logo-image" style={{width: '300px',
-                                    height:'120px',filter: 'brightness(0.8) contrast(1.2)',                                
+                                <img src={Logopito} className="l-dark logo-image" style={filter: 'brightness(0.8) contrast(1.2)',                                
                                    marginTop: '-10px',
                                    
                                     }} alt="" />
-                                <img src={Logopito} className="l-light" style={{width: '300px',
-                                    height:'120px',filter: 'brightness(1.3) contrast(1.2)',                                
+                                <img src={Logopito} className="l-light logo-image" style={{filter: 'brightness(1.3) contrast(1.2)',                                
                                     marginTop: '-10px',                                    
                                     }} alt="" />
                             </span>
