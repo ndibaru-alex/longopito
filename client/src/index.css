@@ -131,4 +131,22 @@ input {
     object-fit: cover; /* Ensures the image maintains aspect ratio */
   }
 }
+.logo-image {
+    width: 310px;
+    height: 120px;
+}
+
+@media (max-width: 768px) {
+    .logo-image {
+        width: 200px;  /* Adjust width for mobile */
+        height: auto;  /* Maintain aspect ratio */
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-image {
+        width: 150px;  
+    }
+}
+
 
