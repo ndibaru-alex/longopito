@@ -55,8 +55,8 @@ export default function AgencyProject() {
                                             <p className="text-light tag mb-0">{item.subtext}</p>
                                         </div>
                                         <div className="icons text-center">
-                                            <Link to="#" onClick={() => setIsOpen(true)} className="btn btn-icon btn-pills lightbox">
-                                                <Icon.Camera className="fea icon-sm image-icon" /></Link>
+                                           {/*<Link to="#" onClick={() => setIsOpen(true)} className="btn btn-icon btn-pills lightbox">
+                                                <Icon.Camera className="fea icon-sm image-icon" /></Link> */}
                                         </div>
                                     </CardBody>
                                 </Card>
