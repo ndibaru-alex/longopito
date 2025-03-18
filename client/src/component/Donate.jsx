@@ -86,13 +86,13 @@ const DonationComponent = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-6 col-sm-12">
-              <input
+{/*               <input
                 type="text"
                 placeholder="Enter name or Donate Anonymously"
                 value={donarName}
                 onChange={(e) => setDonarName(e.target.value)}
                 className="form-control mb-3 d-block"
-              />
+              /> */}
 
               <div className="donation-buttons d-flex flex-wrap gap-2 mb-3">
                 {[100, 200, 500, 1000].map((value) => (
@@ -111,25 +111,25 @@ const DonationComponent = () => {
                 className="form-control mb-3 d-block"
               />
 
-              <input
+{/*               <input
                 type="text"
                 placeholder="Phone Number"
                 name="phone"
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
                 className="form-control mb-3 d-block"
-              />
+              /> */}
             </div>
           </div>
         </div>
 
         <div className="d-flex justify-content-center">
-          <button onClick={handleDonate} className="donate-button mt-3">
-            {isLoading ? <Spinner animation="border" size="sm" /> : `Donate Ksh ${amount}`}
+          <button  className="donate-button mt-3">
+            { `Donate Ksh ${amount}`}
           </button>
         </div>
 
-        <h3 className="mt-3">Or Direct to Mpesa Till NO. 6217699</h3>
+        <h3 className="mt-3">Via  Mpesa Till NO. 6217699</h3>
       </div>
 
       {/* Toast Message */}
