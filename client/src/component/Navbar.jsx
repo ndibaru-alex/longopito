@@ -11,7 +11,7 @@ import {
     Collapse
 } from "reactstrap";
 // Import Logo
-import Logopito from '../assets/images/logopito.png'
+import Logopito from '../assets/images/LogoMilimani.png'
 import Logolight from "../assets/images/logo-light.png";
 import LogoLanding from '../assets/images/logo-landing.png'
 import { logOut } from '../store/auth-slice';
